@@ -14,7 +14,7 @@ Input day of birth.
 Select Gender.
 Output Akan name.
 ## Setup/Installation Requirements
-* STEP ONE: Clone this repository using 
+* STEP ONE: Clone this repository using https://github.com/MalitiG/Akan-calender.git
 * STEP TWO: The repository, if downloaded as a zip file will need to be extracted to your preferred location and opened as a zip file
 * STEP THREE: Open the index.html file to view the application on your preferred web browser
 
