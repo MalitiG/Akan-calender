@@ -1,0 +1,166 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('../IMG/ghana2.jpeg');
+    color: white;
+    font-size: 17px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(212, 199, 5);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px black;  
+  }
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(212, 199, 5);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px black;  
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    font-size: 20px;
+
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+ 
+.column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+  
+  
+  .row {margin: 0 -5px;}
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #b3b00f;
+  }
+
+  .overlay{
+    background-color: rgb(0,0,0,0.5);
+    margin-left: 25%;
+    margin-right: 20%;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  
+
+  
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+  
+  #year-input{
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #000000;
+  }
+  
+  #month-input{
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #000000;
+  }
+  
+  #day-input{
+    border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #000000;
+  }
+  
+  #get-name{
+    border-radius: 5px;
+    color: #000000;
+    background-color: #FCD116;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000000;
+  }
+  
+  #result{
+    text-align: center;
+  }
+  
+  .content{
+    background-color: rgba(70, 236, 236, 0.72);
+    /* height: 600px; */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px #000000;
+    border-radius: 0.5%;
+  }
+  
+  .research{
+    text-decoration: underline;
+    color: white;
+  }
+  
+  .clear{
+    border-radius: 5px;
+    color: #000000;
+    background-color: #FCD116;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000000;
+  }
+  
+  a:hover{
+    color: #006B3F;
+  }
