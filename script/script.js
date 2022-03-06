@@ -7,7 +7,7 @@ function getAkanName () {
 
     function getGender () {
       for (let gender of genders){
-        if (gender.checked..){
+        if (gender.checked){
           return gender.value;
         }
       }
